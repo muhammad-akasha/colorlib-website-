@@ -1,0 +1,303 @@
+@media (max-width: 576px) {
+  :root{
+      --space:10px;
+      --second: "Chivo", sans-serif;
+  }
+  .container-fluid{
+      padding-left: var(--space)!important
+  }
+  .navbar {
+    display: unset;font-family:var(--second);padding-top: 20px
+  }
+  .navbar-toggler{
+    outline: none;border: none
+  }
+  .navbar-toggler:active{
+    outline: none!important;border: none!important;box-shadow: none!important
+  }
+  .navbar-toggler:focus{
+    outline: none!important;border: none!important;box-shadow: none!important
+  }
+  .navbar-nav{
+    position:  relative;z-index: 100;background:#5aff80;padding: 0 ;margin: 0;
+  }
+  .mynavbar {
+    display: none;
+  }
+  .circle {
+    display: none;
+  }
+  .hero-sec {
+    padding-left: 0px;
+    width: 100%;padding-left: var(--space)!important
+  }
+  .hero-sec h1 {
+    font-size: 35px;
+    width: 100%;
+  }
+  .hero-sec h2 {
+    font-size: 30px;
+    width: 100%;
+  }
+  .sec-2-box {
+    padding: 40px 0px;padding-left: var(--space)!important
+  }
+  .sec-2-box h1 {
+    font-size: 25px;
+  }
+  .d-flex {
+    flex-direction: column;padding-left: var(--space)!important
+  }
+  .d-flex div {
+    width: 100%;padding-left: var(--space)!important
+  }
+  .d-flex h3 {
+    text-align: center;
+  }
+  .section-3 {
+    flex-direction: column;
+  }
+  
+  .sec-3-box {
+    width: 94%;
+    margin-left: 0px;padding-left: var(--space)!important
+  }
+  .sec-3-box h2 {
+    font-size: 30px;text-align: center
+  }
+  .sec-3-para {
+    width: 100%;
+    margin: 0px;padding-left: var(--space)!important
+  }
+  .section-4-heading {
+    padding-left: var(--space)!important
+  }
+  .sec-4-content-1 {
+    width: 100%;
+    margin-left: 0px;padding-left: var(--space)!important
+  }
+  .section-5 {
+    flex-direction: column;
+    height: fit-content;
+  }
+  .sec-5-img {
+    width: 100%;
+    background-position: center
+  }
+  .sec-5-para {
+    width: 100%;padding-left: var(--space)!important
+  }
+  .bef-footer {
+    height: fit-content;
+  }
+  .footer-heading {
+    width: 100%;padding-left: var(--space)!important
+  }
+  .footer-heading h2 {
+    font-size: 25px;
+  }
+  .footer{
+      flex-direction: column;gap: 30px;width: 100%
+  }
+  .foot-1{
+      width: 100%;padding-left: var(--space)!important
+  }
+  .foot-2{
+      width: 100%;padding-left: var(--space)!important
+  }
+  .button-div{
+      position: unset
+  }
+  .footerlogo{
+      justify-content: center
+  }
+  .foot-3 p{
+      margin-top: -40px;padding-left: var(--space)!important
+  }
+
+}
+
+@media (min-width:576px) and (max-width:786px){
+  .circle{
+    display: none
+  }
+  :root{
+    --space:50px;
+    --second: "Chivo", sans-serif;
+}
+.container-fluid{
+    padding-left: var(--space)!important;padding-right: var(--space); 
+}
+.navbar {
+  display: unset;font-family:var(--second);padding-top: 20px
+}
+.navbar-toggler{
+  outline: none;border: none
+}
+.navbar-toggler:active{
+  outline: none!important;border: none!important;box-shadow: none!important
+}
+.navbar-toggler:focus{
+  outline: none!important;border: none!important;box-shadow: none!important
+}
+.navbar-nav{
+  position:  relative;z-index: 100;background:#5aff80;padding: 0 ;margin: 0;
+}
+.mynavbar {
+  display: none;
+}
+.circle {
+  display: none;
+}
+.hero-sec {
+  padding-left: 0px;
+  width: 100%;padding-left: var(--space);padding-right: var(--space); 
+}
+.hero-sec h1 {
+  font-size: 35px;
+  width: 100%;
+}
+.hero-sec h2 {
+  font-size: 30px;
+  width: 100%;
+}
+.sec-2-box {
+  padding: 40px 0px;
+}
+.sec-2-box h1 {
+  font-size: 25px;
+}
+.d-flex {
+  flex-direction: column;
+}
+.d-flex div {
+  width: 100%;
+}
+.d-flex h3 {
+  text-align: center;
+}
+.section-3 {
+  flex-direction: column;
+}
+
+.sec-3-box {
+  width: 94%;
+  margin-left: 0px;
+}
+.sec-3-box h2 {
+  font-size: 30px;text-align: center
+}
+.sec-3-para {
+  width: 100%;
+  margin: 0px;padding-left: var(--space)!important;padding-right: var(--space); 
+}
+.section-4-heading {
+  padding-left: var(--space)!important
+}
+.sec-4-content-1 {
+  width: 100%;
+  margin-left: 0px;padding-left: var(--space)!important;padding-right: var(--space); 
+}
+.section-5 {
+  flex-direction: column;
+  height: fit-content;
+}
+.sec-5-img {
+  width: 100%;
+  background-position: center
+}
+.sec-5-para {
+  width: 100%;padding-left: var(--space)!important;padding-right: var(--space); 
+}
+.bef-footer {
+  height: fit-content;
+}
+.footer-heading {
+  width: 100%;padding-left: var(--space)!important;padding-right: var(--space); 
+}
+.footer-heading h2 {
+  font-size: 25px;
+}
+.footer{
+    flex-direction: column;gap: 30px;width: 100%
+}
+.foot-1{
+    width: 100%;padding-left: var(--space)!important;padding-right: var(--space); 
+}
+.foot-2{
+    width: 100%;padding-left: var(--space)!important;padding-right: var(--space); 
+}
+.button-div{
+    position: unset
+}
+.footerlogo{
+    justify-content: center
+}
+.foot-3 p{
+    margin-top: -40px;padding-left: var(--space)!important;padding-right: var(--space); 
+}
+}
+
+
+@media (min-width:786px) and (max-width:1190px){
+.circle{
+  width: 535px ;height: 535px;
+  top: 50px;left: 200px
+}
+.sec-2-box{
+  padding: 40px 120px
+}
+.sec-4-content-1 {
+  width: 100%;
+  margin-left: 0px;padding-left: var(--space)!important;padding-right: var(--space); 
+}
+.sec-3-box {
+  height: 366px
+}
+.sec-3-box h2{
+  font-size: 34px;
+}
+.sec-3-para{
+  margin-top: 36px
+}
+.sec-5-para {
+  padding: 0px
+}
+.sec-5-img, .sec-5-para {
+  align-self: center;
+}
+.foot-3 p{
+  margin: 0px;padding-top: 60px
+}
+}
+@media (min-width:786px) and (max-width:932px){
+  .foot-3 p{
+    padding-top: 100px
+  }
+  
+}
+@media (min-width:830px) and (max-width:882px){
+  .circle{
+    width: 560px ;height: 560px;top: 50px;left: 250px
+  }
+}
+@media (min-width:842px) and (max-width:936px){
+  .circle{
+    width: 560px ;height: 560px;top: 50px;left: 270px
+  }
+}
+@media (min-width:894px) and (max-width:970px){
+  .circle{
+    width: 600px ;height: 600px;top: 50px;left: 290px
+  }
+}
+@media (min-width:970px) and (max-width:1050px){
+  .circle{
+    width: 650px ;height: 650px;top: 50px;left: 320px
+  }
+}
+@media (min-width:1049px) and (max-width:1200px){
+  .circle{
+    width: 700px ;height: 700px;top: 50px;left: 320px
+  }
+}
