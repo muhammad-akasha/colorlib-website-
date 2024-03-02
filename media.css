@@ -301,3 +301,8 @@
     width: 700px ;height: 700px;top: 50px;left: 320px
   }
 }
+@media (min-width:1190px) and (max-width:1230px){
+  .foot-3 p{
+      margin: 0px;padding-top: 60px
+    }
+  }
